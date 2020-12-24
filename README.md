@@ -32,7 +32,7 @@ if err != nil {
 }
 ```
 
-### Get String In Map
+### Get String in Map
 ```go
 sample := "{\"test\": \"json\", \"ok\": true}"
 val, _ := JSONToMap(sample)
@@ -45,7 +45,7 @@ if err != nil {
 // result: "json"
 ```
 
-### Get Bool In Map
+### Get Bool in Map
 ```go
 sample := "{\"test\": \"json\", \"ok\": true}"
 val, _ := JSONToMap(sample)
@@ -58,7 +58,7 @@ if err != nil {
 // result: true
 ```
 
-### Int To String
+### Int to String
 ```go
 sampleInt := 12
 
@@ -70,7 +70,7 @@ if err != nil {
 // result: "12"
 ```
 
-### Float To String
+### Float to String
 ```go
 sampleFloat := 12.34
 
@@ -82,7 +82,7 @@ if err != nil {
 // result: "12.34"
 ```
 
-### Int To Bool
+### Int to Bool
 ```go
 sampleInt := 1
 
@@ -94,7 +94,7 @@ if err != nil {
 // result: true
 ```
 
-### Float To Bool
+### Float to Bool
 ```go
 sampleFloat := 12.34
 
@@ -106,7 +106,7 @@ if err != nil {
 // result: true
 ```
 
-### String To Bool
+### String to Bool
 ```go
 sampleString := "1"
 
